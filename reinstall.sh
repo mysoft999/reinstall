@@ -2,7 +2,7 @@
 # shellcheck disable=SC2086
 
 set -eE
-confhome=https://raw.githubusercontent.com/bin456789/reinstall/main
+confhome=https://raw.githubusercontent.com/mysoft999/reinstall/main
 
 this_script=$(realpath "$0")
 trap 'trap_err $LINENO $?' ERR
